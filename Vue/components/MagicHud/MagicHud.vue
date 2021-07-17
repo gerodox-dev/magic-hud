@@ -1,0 +1,649 @@
+
+<template>
+    <div class="MagicHud">
+        <div class="top-right">
+            <div class="logotype"></div>
+
+            <div class="info">
+                <div class="id">ID: 0</div>
+                <div class="online-image"></div>
+                <div class="online-text">177 <font style="color: rgb(252, 252, 252, 0.50);">/1000</font></div>
+            </div>
+
+            <div class="stars">
+                <svg xmlns="http://www.w3.org/2000/svg" class="star active-star" width="21.37" height="20.48" viewBox="0 0 15.849 15.188"><path id="star" d="M15.807,6.235a.841.841,0,0,0-.724-.578l-4.575-.415L8.7,1.008a.843.843,0,0,0-1.55,0L5.341,5.241.765,5.656A.843.843,0,0,0,.287,7.13l3.458,3.032-1.02,4.491a.842.842,0,0,0,1.253.911l3.945-2.359,3.944,2.359a.843.843,0,0,0,1.254-.911L12.1,10.163,15.561,7.13a.843.843,0,0,0,.246-.9ZM8,13.16" transform="translate(0 -0.496)" /></svg>
+
+                <svg xmlns="http://www.w3.org/2000/svg" class="star" width="21.37" height="20.48" viewBox="0 0 15.849 15.188"><path id="star" d="M15.807,6.235a.841.841,0,0,0-.724-.578l-4.575-.415L8.7,1.008a.843.843,0,0,0-1.55,0L5.341,5.241.765,5.656A.843.843,0,0,0,.287,7.13l3.458,3.032-1.02,4.491a.842.842,0,0,0,1.253.911l3.945-2.359,3.944,2.359a.843.843,0,0,0,1.254-.911L12.1,10.163,15.561,7.13a.843.843,0,0,0,.246-.9ZM8,13.16" transform="translate(0 -0.496)" /></svg>
+
+                <svg xmlns="http://www.w3.org/2000/svg" class="star" width="21.37" height="20.48" viewBox="0 0 15.849 15.188"><path id="star" d="M15.807,6.235a.841.841,0,0,0-.724-.578l-4.575-.415L8.7,1.008a.843.843,0,0,0-1.55,0L5.341,5.241.765,5.656A.843.843,0,0,0,.287,7.13l3.458,3.032-1.02,4.491a.842.842,0,0,0,1.253.911l3.945-2.359,3.944,2.359a.843.843,0,0,0,1.254-.911L12.1,10.163,15.561,7.13a.843.843,0,0,0,.246-.9ZM8,13.16" transform="translate(0 -0.496)" /></svg>
+
+                <svg xmlns="http://www.w3.org/2000/svg" class="star" width="21.37" height="20.48" viewBox="0 0 15.849 15.188"><path id="star" d="M15.807,6.235a.841.841,0,0,0-.724-.578l-4.575-.415L8.7,1.008a.843.843,0,0,0-1.55,0L5.341,5.241.765,5.656A.843.843,0,0,0,.287,7.13l3.458,3.032-1.02,4.491a.842.842,0,0,0,1.253.911l3.945-2.359,3.944,2.359a.843.843,0,0,0,1.254-.911L12.1,10.163,15.561,7.13a.843.843,0,0,0,.246-.9ZM8,13.16" transform="translate(0 -0.496)" /></svg>
+
+                <svg xmlns="http://www.w3.org/2000/svg" class="star" width="21.37" height="20.48" viewBox="0 0 15.849 15.188"><path id="star" d="M15.807,6.235a.841.841,0,0,0-.724-.578l-4.575-.415L8.7,1.008a.843.843,0,0,0-1.55,0L5.341,5.241.765,5.656A.843.843,0,0,0,.287,7.13l3.458,3.032-1.02,4.491a.842.842,0,0,0,1.253.911l3.945-2.359,3.944,2.359a.843.843,0,0,0,1.254-.911L12.1,10.163,15.561,7.13a.843.843,0,0,0,.246-.9ZM8,13.16" transform="translate(0 -0.496)" /></svg>
+            </div>
+
+            <div class="box-200mc">
+                <div class="box-mc-main">Отыграй 8 часов и получи 200 MCoin</div>
+
+                <div class="mc-box">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="star1" xmlns:xlink="http://www.w3.org/1999/xlink" width="40.204" height="37.421" viewBox="0 0 40.204 37.421"> <defs> <filter id="Эллипс_1" x="0" y="0" width="40.204" height="37.421" filterUnits="userSpaceOnUse"> <feOffset input="SourceAlpha"/> <feGaussianBlur stdDeviation="3" result="blur"/> <feFlood flood-color="#ffb742"/> <feComposite operator="in" in2="blur"/> <feComposite in="SourceGraphic"/> </filter> </defs> <g id="Сгруппировать_10" data-name="Сгруппировать 10" transform="translate(-1492.398 -216.289)"> <g transform="matrix(1, 0, 0, 1, 1492.4, 216.29)" filter="url(#Эллипс_1)"> <g id="Эллипс_1-2" data-name="Эллипс 1" transform="matrix(1, -0.07, 0.07, 1, 9, 10.46)" fill="#fda940" stroke="#fdb73e" stroke-width="1"> <ellipse cx="10.5" cy="9" rx="10.5" ry="9" stroke="none"/> <ellipse cx="10.5" cy="9" rx="10" ry="8.5" fill="none"/> </g> </g> <ellipse id="Эллипс_2" data-name="Эллипс 2" cx="8.5" cy="7" rx="8.5" ry="7" transform="matrix(0.998, -0.07, 0.07, 0.998, 1503.533, 228.61)" fill="#fd9b41"/> <g data-type="innerShadowGroup"> <text id="MC" transform="translate(1507.285 237.655) rotate(-7)" fill="#0c0c0c" font-size="6" font-family="Comfortaa-Bold, Comfortaa" font-weight="700" letter-spacing="0.085em"><tspan x="0" y="0">MC</tspan></text> <text id="MC-2" data-name="MC" transform="translate(1507.285 237.655) rotate(-7)" fill="#fff" font-size="6" font-family="Comfortaa-Bold, Comfortaa" font-weight="700" letter-spacing="0.085em"><tspan x="0" y="0">MC</tspan></text> </g> </g></svg>
+
+                    <svg xmlns="http://www.w3.org/2000/svg" class="star2" xmlns:xlink="http://www.w3.org/1999/xlink" width="40.489" height="37.762" viewBox="0 0 40.489 37.762"> <defs> <filter id="Эллипс_1" x="0" y="0" width="40.489" height="37.762" filterUnits="userSpaceOnUse"> <feOffset input="SourceAlpha"/> <feGaussianBlur stdDeviation="3" result="blur"/> <feFlood flood-color="#ffb742"/> <feComposite operator="in" in2="blur"/> <feComposite in="SourceGraphic"/> </filter> </defs> <g id="Сгруппировать_9" data-name="Сгруппировать 9" transform="translate(-1436.872 -449.833) rotate(9)"> <g transform="matrix(0.99, -0.16, 0.16, 0.99, 1489.55, 219.52)" filter="url(#Эллипс_1)"> <g id="Эллипс_1-2" data-name="Эллипс 1" transform="translate(10.57 9) rotate(5)" fill="#fda940" stroke="#fdb73e" stroke-width="1"> <ellipse cx="10.5" cy="9" rx="10.5" ry="9" stroke="none"/> <ellipse cx="10.5" cy="9" rx="10" ry="8.5" fill="none"/> </g> </g> <ellipse id="Эллипс_2" data-name="Эллипс 2" cx="8.5" cy="7" rx="8.5" ry="7" transform="matrix(0.998, -0.07, 0.07, 0.998, 1503.533, 228.61)" fill="#fd9b41"/> <g data-type="innerShadowGroup"> <text id="MC" transform="translate(1507.285 237.655) rotate(-7)" fill="#0c0c0c" font-size="6" font-family="Comfortaa-Bold, Comfortaa" font-weight="700" letter-spacing="0.085em"><tspan x="0" y="0">MC</tspan></text> <text id="MC-2" data-name="MC" transform="translate(1507.285 237.655) rotate(-7)" fill="#fff" font-size="6" font-family="Comfortaa-Bold, Comfortaa" font-weight="700" letter-spacing="0.085em"><tspan x="0" y="0">MC</tspan></text> </g> </g></svg>
+
+                    <svg xmlns="http://www.w3.org/2000/svg" class="star3" xmlns:xlink="http://www.w3.org/1999/xlink" width="43.345" height="41.353" viewBox="0 0 43.345 41.353"> <defs> <filter id="Эллипс_1" x="0" y="0" width="43.345" height="41.353" filterUnits="userSpaceOnUse"> <feOffset input="SourceAlpha"/> <feGaussianBlur stdDeviation="3" result="blur"/> <feFlood flood-color="#ffb742"/> <feComposite operator="in" in2="blur"/> <feComposite in="SourceGraphic"/> </filter> </defs> <g id="Сгруппировать_7" data-name="Сгруппировать 7" transform="translate(-1306.151 -740.746) rotate(21)"> <g transform="matrix(0.93, -0.36, 0.36, 0.93, 1484.86, 223.46)" filter="url(#Эллипс_1)"> <g id="Эллипс_1-2" data-name="Эллипс 1" transform="translate(14.26 9) rotate(17)" fill="#fda940" stroke="#fdb73e" stroke-width="1"> <ellipse cx="10.5" cy="9" rx="10.5" ry="9" stroke="none"/> <ellipse cx="10.5" cy="9" rx="10" ry="8.5" fill="none"/> </g> </g> <ellipse id="Эллипс_2" data-name="Эллипс 2" cx="8.5" cy="7" rx="8.5" ry="7" transform="matrix(0.998, -0.07, 0.07, 0.998, 1503.533, 228.61)" fill="#fd9b41"/> <g data-type="innerShadowGroup"> <text id="MC" transform="translate(1507.285 237.655) rotate(-7)" fill="#0c0c0c" font-size="6" font-family="Comfortaa-Bold, Comfortaa" font-weight="700" letter-spacing="0.085em"><tspan x="0" y="0">MC</tspan></text> <text id="MC-2" data-name="MC" transform="translate(1507.285 237.655) rotate(-7)" fill="#fff" font-size="6" font-family="Comfortaa-Bold, Comfortaa" font-weight="700" letter-spacing="0.085em"><tspan x="0" y="0">MC</tspan></text> </g> </g></svg>
+
+                    <svg xmlns="http://www.w3.org/2000/svg" class="star4" xmlns:xlink="http://www.w3.org/1999/xlink" width="39.615" height="36.722" viewBox="0 0 39.615 36.722"> <defs> <filter id="Эллипс_1" x="0" y="0" width="39.615" height="36.722" filterUnits="userSpaceOnUse"> <feOffset input="SourceAlpha"/> <feGaussianBlur stdDeviation="3" result="blur"/> <feFlood flood-color="#ffb742"/> <feComposite operator="in" in2="blur"/> <feComposite in="SourceGraphic"/> </filter> </defs> <g id="Сгруппировать_8" data-name="Сгруппировать 8" transform="matrix(0.995, 0.105, -0.105, 0.995, -1459.843, -373.451)"> <g transform="matrix(0.99, -0.1, 0.1, 0.99, 1490.88, 218.81)" filter="url(#Эллипс_1)"> <g id="Эллипс_1-2" data-name="Эллипс 1" transform="matrix(1, 0.03, -0.03, 1, 9.63, 9)" fill="#fda940" stroke="#fdb73e" stroke-width="1"> <ellipse cx="10.5" cy="9" rx="10.5" ry="9" stroke="none"/> <ellipse cx="10.5" cy="9" rx="10" ry="8.5" fill="none"/> </g> </g> <ellipse id="Эллипс_2" data-name="Эллипс 2" cx="8.5" cy="7" rx="8.5" ry="7" transform="matrix(0.998, -0.07, 0.07, 0.998, 1503.533, 228.61)" fill="#fd9b41"/> <g data-type="innerShadowGroup"> <text id="MC" transform="translate(1507.285 237.655) rotate(-7)" fill="#0c0c0c" font-size="6" font-family="Comfortaa-Bold, Comfortaa" font-weight="700" letter-spacing="0.085em"><tspan x="0" y="0">MC</tspan></text> <text id="MC-2" data-name="MC" transform="translate(1507.285 237.655) rotate(-7)" fill="#fff" font-size="6" font-family="Comfortaa-Bold, Comfortaa" font-weight="700" letter-spacing="0.085em"><tspan x="0" y="0">MC</tspan></text> </g> </g></svg>
+                </div>
+            </div>
+
+            <div class="box-help">
+                <div class="helper">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="21.533" height="24.5" viewBox="0 0 21.533 24.5"> <g id="headphones" transform="translate(-31)"> <g id="Сгруппировать_12" data-name="Сгруппировать 12" transform="translate(33.871 10.049)"> <g id="Сгруппировать_11" data-name="Сгруппировать 11"> <path id="Контур_4" data-name="Контур 4" d="M93.153,210A2.156,2.156,0,0,0,91,212.153v5.838a2.153,2.153,0,0,0,4.307,0v-5.838A2.156,2.156,0,0,0,93.153,210Z" transform="translate(-91 -210)" fill="rgba(12,12,12,0.75)"/> </g> </g> <g id="Сгруппировать_14" data-name="Сгруппировать 14" transform="translate(31 11.598)"> <g id="Сгруппировать_13" data-name="Сгруппировать 13"> <path id="Контур_5" data-name="Контур 5" d="M32.436,242.971a3.561,3.561,0,0,1,.061-.6,2.149,2.149,0,0,0-1.5,2.04v2.967a2.149,2.149,0,0,0,1.5,2.04,3.561,3.561,0,0,1-.061-.6Z" transform="translate(-31 -242.366)" fill="rgba(12,12,12,0.75)"/> </g> </g> <g id="Сгруппировать_16" data-name="Сгруппировать 16" transform="translate(39.613 10.049)"> <g id="Сгруппировать_15" data-name="Сгруппировать 15"> <path id="Контур_6" data-name="Контур 6" d="M218.9,210a2.156,2.156,0,0,0-2.153,2.153v5.838a2.156,2.156,0,0,0,2.153,2.153,2.124,2.124,0,0,0,.617-.1,2.149,2.149,0,0,1-2.052,1.536h-2.286a2.153,2.153,0,1,0,0,1.436h2.286a3.593,3.593,0,0,0,3.589-3.589v-7.273A2.156,2.156,0,0,0,218.9,210Z" transform="translate(-211 -210)" fill="rgba(12,12,12,0.75)"/> </g> </g> <g id="Сгруппировать_18" data-name="Сгруппировать 18" transform="translate(51.036 11.598)"> <g id="Сгруппировать_17" data-name="Сгруппировать 17"> <path id="Контур_7" data-name="Контур 7" d="M449.722,242.366a3.56,3.56,0,0,1,.061.6v5.838a3.56,3.56,0,0,1-.061.6,2.149,2.149,0,0,0,1.5-2.04v-2.967A2.149,2.149,0,0,0,449.722,242.366Z" transform="translate(-449.722 -242.366)" fill="rgba(12,12,12,0.75)"/> </g> </g> <g id="Сгруппировать_20" data-name="Сгруппировать 20" transform="translate(31)"> <g id="Сгруппировать_19" data-name="Сгруппировать 19"> <path id="Контур_8" data-name="Контур 8" d="M41.767,0A10.778,10.778,0,0,0,31,10.767v.018a3.554,3.554,0,0,1,1.468-.667,9.32,9.32,0,0,1,18.6,0,3.555,3.555,0,0,1,1.468.667v-.018A10.778,10.778,0,0,0,41.767,0Z" transform="translate(-31)" fill="rgba(12,12,12,0.75)"/> </g> </g> </g></svg>
+                </div>
+                
+                <div class="helper-box-text">
+                    <div class="help-title">ПОДСКАЗКА</div>
+                    <div class="help-desc">А может и не подсказка :3</div>
+                </div>
+
+                <div class="help-info">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="8.14" height="18.423" viewBox="0 0 8.14 18.423"> <g id="info" transform="translate(0)"> <path id="Контур_3" data-name="Контур 3" d="M39.035,16.435l-.257,1.052q-1.158.457-1.848.7a4.876,4.876,0,0,1-1.6.24,3.2,3.2,0,0,1-2.181-.684A2.214,2.214,0,0,1,32.368,16a6.146,6.146,0,0,1,.058-.836q.059-.428.188-.965l.965-3.416q.129-.491.217-.93a4.042,4.042,0,0,0,.088-.8,1.238,1.238,0,0,0-.27-.913,1.526,1.526,0,0,0-1.032-.258A2.7,2.7,0,0,0,31.814,8c-.263.078-.487.153-.675.222L31.4,7.169q.948-.386,1.815-.661a5.427,5.427,0,0,1,1.641-.275A3.122,3.122,0,0,1,37,6.906a2.234,2.234,0,0,1,.755,1.749c0,.148-.017.41-.052.784a5.242,5.242,0,0,1-.193,1.03l-.961,3.4a9.036,9.036,0,0,0-.211.937,4.824,4.824,0,0,0-.094.8,1.146,1.146,0,0,0,.3.924,1.709,1.709,0,0,0,1.051.246,3.036,3.036,0,0,0,.795-.123A4.445,4.445,0,0,0,39.035,16.435Zm.244-14.283a1.991,1.991,0,0,1-.672,1.515,2.289,2.289,0,0,1-1.619.627,2.314,2.314,0,0,1-1.627-.627,1.986,1.986,0,0,1-.679-1.515,2.006,2.006,0,0,1,.679-1.52,2.4,2.4,0,0,1,3.246,0A2.01,2.01,0,0,1,39.279,2.151Z" transform="translate(-31.139)" fill="rgba(12,12,12,0.5)"/> </g></svg>
+                </div>
+            </div>
+        </div>
+
+        <div class="box-button-info">
+            <div class="button-box">
+                <div class="button-circle">N</div>
+                <div class="button-text">Микрофон</div>
+            </div>
+
+            <div class="button-box">
+                <div class="button-circle">I</div>
+                <div class="button-text">Инвентарь</div>
+            </div>
+
+            <div class="button-box">
+                <div class="button-circle">M</div>
+                <div class="button-text">Телефон</div>
+            </div>
+
+            <div class="button-box">
+                <div class="button-circle">U</div>
+                <div class="button-text">Анимации</div>
+            </div>
+
+            <div class="button-box">
+                <div class="button-circle">B</div>
+                <div class="button-text">Палец/завести авто</div>
+            </div>
+
+            <div class="button-box">
+                <div class="button-circle">L</div>
+                <div class="button-text">Закрыть/открыть авто</div>
+            </div>
+
+            <div class="button-box">
+                <div class="button-circle">5</div>
+                <div class="button-text">Никнеймы</div>
+            </div>
+
+            <div class="button-box">
+                <div class="button-circle">6</div>
+                <div class="button-text">Круиз-контроль</div>
+            </div>
+
+            <div class="button-box">
+                <div class="button-circle">F5</div>
+                <div class="button-text">Скрыть HUD</div>
+            </div>
+
+            <div class="button-box">
+                <div class="button-circle">F9</div>
+                <div class="button-text">Донат панель</div>
+            </div>
+
+            <div class="button-box">
+                <div class="button-circle">F10</div>
+                <div class="button-text">Помощь</div>
+            </div>
+
+            <div class="button-box">
+                <div class="button-circle">Ё</div>
+                <div class="button-text">Курсор</div>
+            </div>
+        </div>
+
+        <div class="bottom-left">
+            <div class="minimap-width-n-height"></div>
+
+            <div class="bottom-info">
+                <div class="bottom-info-small">
+                    <div class="bottom-info-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18.712" height="18.713" viewBox="0 0 18.712 18.713"> <g id="wallet" transform="translate(0)"> <g id="Сгруппировать_25" data-name="Сгруппировать 25" transform="translate(0 0)"> <g id="Сгруппировать_24" data-name="Сгруппировать 24" transform="translate(0 0)"> <path id="Контур_11" data-name="Контур 11" d="M17.439,15.311H14.463a3.4,3.4,0,0,1,0-6.8h2.977a.425.425,0,0,0,.425-.425V6.8A1.7,1.7,0,0,0,16.3,5.117L13.857.851A1.683,1.683,0,0,0,11.547.229L3.175,5.1H1.7A1.7,1.7,0,0,0,0,6.8V17.012a1.7,1.7,0,0,0,1.7,1.7h14.46a1.7,1.7,0,0,0,1.7-1.7V15.736A.425.425,0,0,0,17.439,15.311ZM14.384,3.485,15.311,5.1H11.6ZM4.865,5.1,11.976.964a.822.822,0,0,1,.632-.085.834.834,0,0,1,.511.395v0L6.544,5.1Z" transform="translate(-0.003 0)" fill="#fcfcfc"/> <path id="Контур_12" data-name="Контур 12" d="M304.2,234.674h-2.977a2.552,2.552,0,0,0,0,5.1H304.2a1.277,1.277,0,0,0,1.276-1.276V235.95A1.277,1.277,0,0,0,304.2,234.674Zm-2.977,3.4a.851.851,0,1,1,.851-.851A.852.852,0,0,1,301.222,238.076Z" transform="translate(-286.762 -225.317)" fill="#fcfcfc"/> </g> </g> </g></svg>
+                    </div>
+
+                    <div class="bottom-info-text">$4 019 250</div>
+                </div>
+
+                <div class="bottom-info-small">
+                    <div class="bottom-info-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="21.054" height="14.027" viewBox="0 0 21.054 14.027"> <g id="credit-card" transform="translate(0)"> <path id="Контур_13" data-name="Контур 13" d="M0,213.161v5.449a2.841,2.841,0,0,0,2.841,2.841H18.213a2.841,2.841,0,0,0,2.841-2.841v-5.449a.494.494,0,0,0-.494-.494H.494A.494.494,0,0,0,0,213.161Zm5.257,3.459H3.939a.865.865,0,0,1,0-1.729H5.257a.865.865,0,0,1,0,1.729Z" transform="translate(0 -207.424)" fill="#fcfcfc"/> <path id="Контур_14" data-name="Контур 14" d="M21.054,88.354v-.178a2.841,2.841,0,0,0-2.841-2.841H2.841A2.841,2.841,0,0,0,0,88.175v.178a.494.494,0,0,0,.494.494H20.56A.494.494,0,0,0,21.054,88.354Z" transform="translate(0 -85.334)" fill="#fcfcfc"/> </g></svg>
+                    </div>
+
+                    <div class="bottom-info-text" style="color: rgb(252, 252, 252, 0.50);">$320 340</div>
+                </div>
+
+                <div class="bottom-info-small">
+                    <div class="bottom-info-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="15.722" height="20.963" viewBox="0 0 15.722 20.963"> <path id="location-pin" d="M10.861,0A7.9,7.9,0,0,0,3,7.918c0,6.2,7.122,12.61,7.425,12.879a.657.657,0,0,0,.872,0c.3-.27,7.425-6.676,7.425-12.88A7.9,7.9,0,0,0,10.861,0Zm0,12.228a4.367,4.367,0,1,1,4.367-4.367A4.372,4.372,0,0,1,10.861,12.228Z" transform="translate(-3)" fill="#fcfcfc"/></svg>
+                    </div>
+
+                    <div class="bottom-info-text">Альта,<font style="color: rgb(252, 252, 252, 0.50);">Хавик-авеню</font></div>
+                </div>
+
+                <div class="bottom-info-small" style="margin-top: 15px;">
+                    <div class="bottom-info-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18.443" height="18.443" viewBox="0 0 18.443 18.443"> <path id="clock" d="M9.222,0a9.222,9.222,0,1,0,9.222,9.222A9.232,9.232,0,0,0,9.222,0Zm4.386,13.992a.768.768,0,0,1-1.087,0L8.678,10.149a.765.765,0,0,1-.225-.543v-5a.768.768,0,1,1,1.537,0V9.288l3.617,3.617a.768.768,0,0,1,0,1.087Zm0,0" fill="#fcfcfc"/></svg>
+                    </div>
+
+                    <div class="bottom-info-box">
+                        <div class="bottom-info-text" style="margin-top: 0;">10:35</div>
+                        <div class="bottom-info-desc">13/07/2021</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="bottom-center">
+            <div class="center-box">
+                <div class="press-e">
+                    <div class="text1">Нажмите</div>
+                    <div class="text-circle">E</div>
+                    <div class="text1">для взаимодействия</div>
+                </div>
+
+                <div class="microphone-box">
+                    <div class="microphone-small-box">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16.249" height="23.471" viewBox="0 0 16.249 23.471"> <g id="microphone-black-shape" transform="translate(-73.087)"> <g id="Сгруппировать_23" data-name="Сгруппировать 23" transform="translate(73.087)"> <path id="Контур_9" data-name="Контур 9" d="M150.693,16.248a4.526,4.526,0,0,0,4.513-4.513V4.514a4.345,4.345,0,0,0-1.326-3.188,4.495,4.495,0,0,0-6.375,0,4.346,4.346,0,0,0-1.326,3.188v7.222a4.526,4.526,0,0,0,4.514,4.513Z" transform="translate(-142.568 0)" fill="rgba(252,252,252,0.85)"/> <path id="Контур_10" data-name="Контур 10" d="M89.068,182.992a.9.9,0,0,0-1.537.635v1.806a6.319,6.319,0,0,1-12.638,0v-1.806a.9.9,0,0,0-1.806,0v1.806a8.123,8.123,0,0,0,7.222,8.068v1.862H76.7a.9.9,0,0,0,0,1.806h9.027a.9.9,0,0,0,0-1.806h-3.61V193.5a8.124,8.124,0,0,0,7.222-8.068v-1.806A.867.867,0,0,0,89.068,182.992Z" transform="translate(-73.087 -173.697)" fill="rgba(252,252,252,0.85)"/> </g> </g></svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</template>
+
+<script>
+export default {
+    name: 'MagicHud',
+
+    data: function() {
+        return {
+
+        }
+    },
+
+    methods: {
+
+    }
+}
+</script>
+
+<style scoped>
+
+.MagicHud {
+    position: absolute;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    height: 100%;
+}
+
+.top-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-end;
+
+    width: 100%;
+    height: 100%;
+
+    /* background-color: rgba(0, 255, 170, 0.527); */
+}
+
+.logotype {
+    width: 166px;
+    height: 49px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    margin: 30px 30px 0 0;
+
+    background-image: url(./assets/logotype.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.info {
+    font-family: 'Comfortaa';
+    font-size: 14px;
+    font-weight: 800;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    width: auto;
+    height: auto;
+
+    margin-top: 10px;
+    margin-right: 40px;
+
+    /* background-color: rgba(255, 228, 196, 0.473); */
+}
+
+.id {
+    margin-right: 15px;
+
+    color: rgb(252, 252, 252, 0.50);
+}
+
+.online-image {
+    width: 30px;
+    height: 30px;
+
+    width: 30px;
+    height: 30px;
+
+    background-image: url(./assets/online_players.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.online-text {
+    font-family: 'Comfortaa';
+    font-size: 14px;
+    font-weight: 800;
+
+
+    color: #FCFCFC;
+}
+
+.stars {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    width: auto;
+    height: auto;
+
+    margin-top: 10px;
+    margin-right: 30px;
+}
+
+.star {
+    fill: rgba(255,255,255,0.5);
+    margin-left: 5px;
+}
+
+.active-star {
+    fill: #FFB742;
+    margin-left: 5px;
+}
+
+.box-200mc {
+    width: auto;
+    height: auto;
+}
+
+.box-mc-main {
+    font-family: 'Comfortaa';
+    font-size: 14px;
+    font-weight: 800;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    width: auto;
+    height: 40px;
+
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 20px;
+    margin-right: 30px;
+
+    background: linear-gradient(to left, #FDB83E, #FD9A41);
+    box-shadow: 0 0 20px #FDB83E;
+    border-radius: 9999px;
+}
+
+.mc-box {
+    width: auto;
+    height: auto;
+}
+
+.star1 {
+    position: absolute;
+    margin-top: -60px;
+}
+
+.star2 {
+    position: absolute;
+    margin-top: -20px;
+    margin-left: 70px;
+}
+
+.star3 {
+    position: absolute;
+    margin-top: -60px;
+    margin-left: 140px;
+}
+
+.star4 {
+    position: absolute;
+    margin-top: -20px;
+    margin-left: 225px;
+}
+
+.box-help {
+    font-family: 'Comfortaa';
+    font-size: 14px;
+    font-weight: 800;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    width: auto;
+    height: 60px;
+
+    margin-top: 30px;
+    margin-right: 30px;
+
+    color: #FCFCFC;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 30px 10px 10px 30px;
+    padding: 0 10px 0 10px;
+}
+
+.help-desc {
+    font-size: 12px;
+    color: rgb(252, 252, 252, 0.7);
+}
+
+.helper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    width: 45px;
+    height: 45px;
+
+    margin-right: 25px;
+
+    background-color: #FDA93F;
+    box-shadow: 0 0 20px #FDB83E;
+    border-radius: 9999px;
+}
+
+.help-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+    width: 30px;
+    height: 30px;
+
+    margin-left: 25px;
+
+    background-color: #FDA93F;
+    box-shadow: 0 0 20px #FDB83E;
+    border-radius: 9999px;
+}
+
+.helper-box-text {
+    width: auto;
+    height: auto;
+
+    margin-right: 10px;
+}
+
+.box-button-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+    position: absolute;
+
+    margin-left: 30px;
+
+    width: 100%;
+    height: 100%;
+}
+
+.button-box {
+    font-family: 'Comfortaa';
+    font-size: 14px;
+    font-weight: 800;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 10px;
+    margin-right: 10px;
+
+    width: auto;
+    height: auto;
+}
+
+.button-circle {
+    font-size: 12px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    width: 25px;
+    height: 25px;
+
+    background-color: #FDB83E;
+    box-shadow: 0 0 6px #FDA93F;
+    border-radius: 9999px;
+}
+
+.button-text {
+    font-size: 12px;
+    color: #fcfcfc;
+    margin-left: 5px;
+}
+
+.minimap-width-n-height {
+    width: 35vh;
+    height: 195px;
+}
+
+.bottom-left {
+    position: absolute;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-end;
+
+    width: 100%;
+    height: 100%;
+}
+
+.bottom-info {
+    margin-bottom: 30px;
+}
+
+.bottom-info-small {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+
+    width: auto;
+    height: auto;
+
+    margin-top: 5px;
+
+    /* background-color: rgba(0, 0, 0, 0.267); */
+}
+
+.bottom-info-icon {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    width: 15px;
+    height: 25px;
+}
+
+.bottom-info-text {
+    font-family: 'Comfortaa';
+    font-size: 14px;
+    font-weight: 800;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    width: auto;
+    height: 15px;
+    margin-left: 10px;
+
+    color: #FCFCFC;
+}
+
+.bottom-info-box {
+    font-family: 'Comfortaa';
+    font-size: 10px;
+    font-weight: 800;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.bottom-info-desc {
+    margin-left: 5px;
+    color: rgb(252, 252, 252, 0.50);
+}
+
+.bottom-center {
+    position: absolute;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+
+    width: 100%;
+    height: 100%;
+
+    padding-bottom: 30px;
+}
+
+.center-box {
+    font-family: 'Comfortaa';
+    font-size: 14px;
+    font-weight: 800;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: auto;
+    height: auto;
+}
+
+.press-e {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    width: auto;
+    height: auto;
+
+    color: #FCFCFC;
+}
+
+.text1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    width: auto;
+    height: 100%;
+}
+
+.text-circle {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    width: 25px;
+    height: 25px;
+
+    margin: 0 10px 0 10px;
+    
+    color: #0C0C0C;
+    background-color: #FDB83E;
+    box-shadow: 0 0 6px #FDA93F;
+    border-radius: 9999px;
+}
+
+.microphone-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    width: auto;
+    height: auto;
+
+    margin-top: 15px;
+}
+
+.microphone-small-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    width: 45px;
+    height: 45px;
+
+    background-color: #0C0C0C;
+    border-radius: 9999px;
+
+    opacity: 0.55;
+}
+</style>
